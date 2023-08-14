@@ -434,7 +434,7 @@ section .title span::after{
 .skills-details .progress .progress-bar[data-percentage="75"] { width: 75%; }
 .skills-details .progress .progress-bar[data-percentage="80"] { width: 80%; }
 .skills-details .progress .progress-bar[data-percentage="75"] { width: 75%; }
-.skills-details .progress .progress-bar[data-percentage="65"] { width: 65%; }
+.skills-details .progress .progress-bar[data-percentage="70"] { width: 70%; }
 .skills-details .progress .progress-bar[data-percentage="75"] { width: 75%; }
 
 .skills-details .box {
