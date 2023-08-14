@@ -52,7 +52,6 @@ for (var i = 0; i < navLinks.length; i++) {
   });
 }
 
-
 function showMessage() {
   alert('Thank you for contacting me! Your message has been received and I will get back to you as soon as possible.');
   
