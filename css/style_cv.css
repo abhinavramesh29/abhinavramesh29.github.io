@@ -1,0 +1,145 @@
+/* Color variables */
+:root {
+    --white-color: #fff;
+    --bg-color: #f5f5f5;
+    --gray-color: #ccc;
+    --dark-gray-color: #888;
+    --highlight-color: #4c96af;
+}
+
+body {
+    background: var(--bg-color) !important;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+#cv img {
+    width: 230px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: var(--highlight-color);
+    border-bottom: 2px solid var(--highlight-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: var(--dark-gray-color);
+    margin-bottom: 15px;
+}
+
+.contact-info, ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.border-dark-subtle {
+    border-color: var(--dark-gray-color);
+}
+
+hr {
+    border-top: 1px solid var(--gray-color);
+    margin: 20px 0;
+}
+
+.fas, .fa-brands {
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+section .button{
+    margin: 16px 0;
+  }
+  section .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #4070f4;
+    color: #fff;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  section .button button:hover{
+    border-color: #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+  }
+
+/* Left-aligned content (picture, contact, skills) */
+#cv .col-lg-4 {
+    border-right: 1px solid var(--gray-color);
+    padding-right: 20px;
+}
+
+/* Right-aligned content (profile, education, etc.) */
+#cv .col-lg-7 {
+    padding-left: 30px;
+}
+
+/* Contact details icons */
+.contact-info li i {
+    color: var(--highlight-color);
+    margin-right: 10px;
+}
+
+/* Styling lists */
+dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dl dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    #cv .col-lg-4 {
+        border-right: none;
+        padding-right: 0;
+        text-align: center;
+    }
+    
+    #cv .col-lg-7 {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+
+
