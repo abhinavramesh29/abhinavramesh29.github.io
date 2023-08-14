@@ -631,33 +631,6 @@ section .title span::after{
   background: none;
 }
 
-@media only screen and (max-width: 768px) {
-  .contact .contact-content {
-      flex-direction: column; /* Stacks columns vertically */
-  }
-
-  .contact .column {
-      width: 100%; /* Each column takes full width */
-      margin-bottom: 20px; /* Adds some spacing between the columns */
-  }
-
-  .contact .right form .fields {
-      flex-direction: column; /* Stack fields vertically */
-  }
-
-  .contact .right form .field,
-  .contact .right form .fields .field {
-      width: 100%; /* Each field takes full width */
-  }
-
-  .contact .right form .name {
-      margin-right: 0; /* Removes the right margin from the name field */
-  }
-
-  .contact .right form .button-area button {
-      width: 100%; /* Button takes full width */
-  }
-
 
 /* Footer CSS */
 footer{
