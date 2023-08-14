@@ -506,7 +506,23 @@ section .title span::after{
 
 
 
+@media screen and (max-width: 768px) {
+  #cv img,
+  #cv .hire-text h2 {
+    width: 100px;
+    height: 100px;
+  }
 
+  #cv .img::before {
+    left: 40px;
+  }
+
+  #cv .img,
+  #cv img,
+  .hire-text h2 {
+    position: relative;
+  }
+}
 
 /* Contact Me CSS */
 
