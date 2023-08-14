@@ -52,6 +52,13 @@ for (var i = 0; i < navLinks.length; i++) {
   });
 }
 
+function enableScroll() {
+    body.style.overflow = "auto";
+    scrollBtn.style.pointerEvents = "auto";
+    console.log("Scrolling enabled");
+}
+
+
 function showMessage() {
   alert('Thank you for contacting me! Your message has been received and I will get back to you as soon as possible.');
   
